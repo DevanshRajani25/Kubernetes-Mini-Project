@@ -2,8 +2,8 @@
 FROM python:3.9-slim
 
 # Set Env variables to prevent python from writing .pyc files and buffer output
-ENV PYTHONDONTWRITEBYTECODE = 1
-ENV PYTHONUNBUFFEREND = 1
+ENV PYTHONDONTWRITEBYTECODE=1
+ENV PYTHONUNBUFFERED=1
 
 # Set working directory inside container
 WORKDIR /app
@@ -21,4 +21,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 EXPOSE 5000
 
 # Run application
-CMD ['python','app.py']
+CMD ["python", "app.py"]
