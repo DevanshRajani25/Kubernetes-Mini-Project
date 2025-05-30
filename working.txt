@@ -1,0 +1,13 @@
+Flask App
+   ↓
+Dockerfile
+   ↓
+Docker Image
+   ↓
+Kubernetes Deployment (deployment.yaml file)
+   ↓
+Kubernetes Pod (runs container)
+   ↓
+Kubernetes Service (exposes it)
+   ↓
+Browser → Output

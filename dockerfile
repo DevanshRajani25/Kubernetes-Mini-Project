@@ -1,3 +1,6 @@
+# Recipe for creating a Docker image
+
+
 # Light weight base image
 FROM python:3.9-slim
 

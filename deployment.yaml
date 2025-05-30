@@ -1,3 +1,5 @@
+# Tells kubernetes to tell Kubernetes how to deploy and manage application using Docker images
+
 apiVersion: apps/v1
 kind: Deployment
 metadata:
